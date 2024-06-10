@@ -14,4 +14,11 @@ function queue(){
         return this.line(this.line.length(0))
     };
 
+    let isEmpty = () => {
+        if (this.line.length == 0){
+            return true;
+        } 
+        return false;
+    };
+
 }
