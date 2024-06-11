@@ -21,4 +21,11 @@ function queue(){
         return false;
     };
 
+    let isFull = () => {
+        if (this.line.length > 0){
+            return true;
+        } 
+        return false;
+    };
+
 }
