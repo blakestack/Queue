@@ -1,5 +1,5 @@
-function queue(){
-    this.id = "";
+function queue(id){
+    this.id = id;
     this.line = [];
 
     let enqueue = (node) => {
